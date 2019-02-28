@@ -29,7 +29,7 @@ jobs:
       - PROJECT_NAME: "Mplus"
       - GOOGLE_PROJECT_ID: "mongolmag-976"
       - GOOGLE_COMPUTE_ZONE: "asia-east1-a"
-      - GOOGLE_CLUSTER_NAME: "hacknightvol4-cluster"
+      - GOOGLE_CLUSTER_NAME: "standard-cluster-1"
     steps:
       - checkout
       - run:
