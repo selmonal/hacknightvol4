@@ -26,8 +26,8 @@ jobs:
     docker:
       - image: google/cloud-sdk
     environment:
-      - PROJECT_NAME: "hacknight-v4"
-      - GOOGLE_PROJECT_ID: "hacknight-v4"
+      - PROJECT_NAME: "Mplus"
+      - GOOGLE_PROJECT_ID: "mongolmag-976"
       - GOOGLE_COMPUTE_ZONE: "asia-east1-a"
       - GOOGLE_CLUSTER_NAME: "hacknightvol4-cluster"
     steps:
