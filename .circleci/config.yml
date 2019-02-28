@@ -28,8 +28,8 @@ jobs:
     environment:
       - PROJECT_NAME: "Mplus"
       - GOOGLE_PROJECT_ID: "mongolmag-976"
-      - GOOGLE_COMPUTE_ZONE: "us-central1-a"
-      - GOOGLE_CLUSTER_NAME: "standard-cluster-1"
+      - GOOGLE_COMPUTE_ZONE: "asia-east1-a"
+      - GOOGLE_CLUSTER_NAME: "hacknightvol4-cluster"
     steps:
       - checkout
       - run:
